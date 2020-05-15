@@ -25,7 +25,7 @@ botName: string,
 siteId: string,
 siteName: string,
 videoId: string,
-videoName: string
+videoName: string,
 frameId: string,
 frameUrl: string,
 timestamp: datetime
@@ -37,7 +37,7 @@ botName: string,
 siteId: string,
 siteName: string,
 videoId: string,
-videoName: string
+videoName: string,
 frameId: string,
 frameUrl: string,
 timestamp: datetime,

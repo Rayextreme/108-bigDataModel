@@ -62,6 +62,6 @@ gapId: string,
 gapAlgorithm: string,
 averagePersonCount: float,
 averageDeviation: float,
-gapDeviation: float,
+deviationRate: float,
 gapTimestamp: datetime
 

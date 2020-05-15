@@ -1,0 +1,67 @@
+Bot Data
+botId: string,
+botName: string
+
+
+Site Data
+botId: string,
+botName: string,
+siteId: string,
+siteName: string
+
+
+Video Data
+botId: string,
+botName: string,
+siteId: string,
+siteName: string,
+videoId: string,
+videoName: string
+
+
+Frame Data
+botId: string,
+botName: string,
+siteId: string,
+siteName: string,
+videoId: string,
+videoName: string
+frameId: string,
+frameUrl: string,
+timestamp: datetime
+
+
+Recognition Data
+botId: string,
+botName: string,
+siteId: string,
+siteName: string,
+videoId: string,
+videoName: string
+frameId: string,
+frameUrl: string,
+timestamp: datetime,
+personCountId: string,
+personCountAlgorithm: string,
+personCount: integer,
+personCountTimestamp: datetime,
+major: integer # 1:major, 0: minor
+
+
+Gap Data
+botId: string,
+botName: string,
+siteId: string,
+siteName: string,
+videoId: string,
+videoName: string,
+frameId: string,
+frameUrl: string,
+timestamp: datetime,
+gapId: string,
+gapAlgorithm: string,
+averagePersonCount: float,
+averageDeviation: float,
+gapDeviation: float,
+gapTimestamp: datetime
+
